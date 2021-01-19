@@ -291,7 +291,7 @@ def main():
             elif is_validated_number(user_input):
                 
                 myPredict = get_strikes_or_ball(user_input,random_number)
-                print("Strike : %d , Balls : %d" %(myPredict[0],myPredict[1]))
+                print("Strikes : %d , Balls : %d" %(myPredict[0],myPredict[1]))
                 if myPredict == [3,0]: #스트라이크 일경우
                     
                     while(True):
